@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 app.use(
     cors({
-      origin: 'http://localhost:3001',
+      origin: 'https://taskatmanager.onrender.com',
     })
   );
 app.use(express.json());
